@@ -26,7 +26,6 @@ bin/SHA256SUMS.asc
 regtest/data/node1/regtest
 regtest/data/node2/regtest
 regtest/data/node3/regtest
-npwcore-node.json*
 *.bak
 *.orig
 lib/services/insight-api

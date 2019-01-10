@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0-beta.1",
+  "network": "livenet",
+  "port": 3001,
+  "services": [
+    "db",
+    "header",
+    "p2p",
+    "timestamp",
+    "mempool",
+    "block",
+    "transaction",
+    "address",
+    "fee",
+    "web",
+    "insight-api"
+  ],
+  "datadir": "/Users/panmohan/.npwcore/data",
+  "servicesConfig": {
+    "insight-api": {
+      "cwdRequirePath": "node_modules/insight-api",
+      "routePrefix": "api",
+      "disableRateLimiter": true,
+      "enableCache": true
+    },
+    "p2p": {
+      "peers": [
+        {
+          "ip": {
+            "v4": "127.0.0.1"
+          },
+          "port": 61472
+        }
+      ],
+      "rpc": {
+        "user": "npwcore",
+        "pass": "local132",
+        "host": "127.0.0.1",
+        "protocol": "http",
+        "port": 61473
+      }
+    },
+    "fee": {
+      "rpc": {
+        "user": "npwcore",
+        "pass": "local132",
+        "host": "127.0.0.1",
+        "protocol": "http",
+        "port": 61473
+      }
+    }
+  }
+}
