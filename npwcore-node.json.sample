@@ -15,7 +15,7 @@
     "web",
     "insight-api"
   ],
-  "datadir": "/Users/panmohan/.npwcore/data",
+  "datadir": "~/.npwcore/data",
   "servicesConfig": {
     "insight-api": {
       "cwdRequirePath": "node_modules/insight-api",
